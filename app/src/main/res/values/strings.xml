@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Taller1</string>
+    <string name="Creacion_Manillas">Creacion de manillas</string>
+    <string name="Cantidad_Manillas">Cantidad de manillas</string>
+    <string name="Material">Material</string>
+    <string name="Dije">Dije</string>
+    <string name="Moneda">Moneda de pago</string>
+    <string name="Valor_Total">Valor total</string>
+    <string name="Cuero">Cuero</string>
+    <string name="Cuerda">Cuerda</string>
+    <string name="Martillo">Martillo</string>
+    <string name="Ancla">Ancla</string>
+    <string name="Dolar">Dolar</string>
+    <string name="Peso_Colombiano">Peso Colombiano</string>
+    <string name="Nuevo">Nueva Venta</string>
+    <string name="Calcular">Calcular</string>
+    <string name="Tipo_De_Dije">Tipo de dije</string>
+    <string name="Oro">Oro</string>
+    <string name="Oro_Rosado">Oro Rosado</string>
+    <string name="Plata">Plata</string>
+    <string name="Niquel">Niquel</string>
+    <string-array name="opciones_material">
+        <item>@string/Cuerda</item>
+        <item>@string/Cuero</item>
+    </string-array>
+    <string-array name="opciones_dije">
+        <item>@string/Ancla</item>
+        <item>@string/Martillo</item>
+    </string-array>
+    <string-array name="opciones_moneda">
+        <item>@string/Dolar</item>
+        <item>@string/Peso_Colombiano</item>
+    </string-array>
+    <string-array name="opciones_Tipo_Dije">
+        <item>@string/Oro</item>
+        <item>@string/Oro_Rosado</item>
+        <item>@string/Plata</item>
+        <item>@string/Niquel</item>
+    </string-array>
+</resources>

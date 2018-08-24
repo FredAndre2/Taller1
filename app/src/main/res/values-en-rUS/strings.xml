@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Taller1</string>
+    <string name="Creacion_Manillas">Handle creation</string>
+    <string name="Cantidad_Manillas">Number of handles</string>
+    <string name="Dije">Charms</string>
+    <string name="Material">Material</string>
+    <string name="Moneda">Payment currency</string>
+    <string name="Valor_Total">Value of the sale</string>
+    <string name="Cuero">Leather</string>
+    <string name="Cuerda">Rope</string>
+    <string name="Martillo">Hammer</string>
+    <string name="Ancla">Anchor</string>
+    <string name="Dolar">Dollar</string>
+    <string name="Peso_Colombiano">Colombian peso</string>
+    <string name="Nuevo">New</string>
+    <string name="Calcular">Calculate</string>
+</resources>
