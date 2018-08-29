@@ -35,7 +35,7 @@
                 android:text="@string/Cantidad_Manillas" />
 
             <EditText
-                android:id="@+id/editText"
+                android:id="@+id/Txt_Cantidad"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -50,7 +50,7 @@
                 android:text="@string/Material" />
 
             <Spinner
-                android:id="@+id/spinner"
+                android:id="@+id/Cmb_Material_Manilla"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:entries="@array/opciones_material" />
@@ -63,7 +63,7 @@
                 android:text="@string/Dije" />
 
             <Spinner
-                android:id="@+id/spinner2"
+                android:id="@+id/Cmb_Dije"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:entries="@array/opciones_dije" />
@@ -76,7 +76,7 @@
                 android:text="@string/Tipo_De_Dije" />
 
             <Spinner
-                android:id="@+id/spinner4"
+                android:id="@+id/Cmb_Tipo_Dije"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:entries="@array/opciones_Tipo_Dije" />
@@ -89,7 +89,7 @@
                 android:text="@string/Moneda" />
 
             <Spinner
-                android:id="@+id/spinner3"
+                android:id="@+id/Cmb_Moneda"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:entries="@array/opciones_moneda" />
@@ -102,7 +102,7 @@
                 android:text="@string/Valor_Total" />
 
             <EditText
-                android:id="@+id/editText3"
+                android:id="@+id/Txt_Valor_Total"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -121,6 +121,7 @@
                     android:layout_weight="1"
                     android:background="@android:color/holo_blue_dark"
                     android:fontFamily="@font/cabin_medium"
+                    android:onClick="Btn_NuevaVenta"
                     android:text="@string/Nuevo"
                     android:textColor="@android:color/black" />
 
@@ -131,6 +132,7 @@
                     android:layout_weight="1"
                     android:background="#681313"
                     android:fontFamily="@font/cabin_medium"
+                    android:onClick="Btn_Calcular"
                     android:text="@string/Calcular"
                     android:textColor="@android:color/background_light" />
             </LinearLayout>
