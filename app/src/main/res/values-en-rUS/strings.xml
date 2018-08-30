@@ -15,4 +15,11 @@
     <string name="Peso_Colombiano">Colombian peso</string>
     <string name="Nuevo">New</string>
     <string name="Calcular">Calculate</string>
+    <string name="Error1">Please type the number of handles</string>
+    <string name="Error2">Please enter a value different from zero</string>
+    <string name="Tipo_De_Dije">Kind of charms</string>
+    <string name="Oro">Gold</string>
+    <string name="Oro_Rosado">Pink Gold</string>
+    <string name="Plata">Silver</string>
+    <string name="Niquel">Nickel</string>
 </resources>

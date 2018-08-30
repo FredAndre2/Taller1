@@ -6,12 +6,13 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.view.View;
+import android.content.res.Resources;
 
 public class Principal extends AppCompatActivity {
     private EditText Cantidad;
     private TextView ValorTotal;
     private Spinner Tipo_Dije, Material_Manilla, Dije, Moneda;
-
+    private Resources recursos;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,12 +27,12 @@ public class Principal extends AppCompatActivity {
     public boolean Validar(){
         if (Cantidad.getText().toString().isEmpty()){
             Cantidad.requestFocus();
-            Cantidad.setError("Por favor digite la cantidad");
+            Cantidad.setError(recursos.getString(R.string.Error1));
             return false;
         }
         if (Integer.parseInt(Cantidad.getText().toString())==0){
             Cantidad.requestFocus();
-            Cantidad.setError("Digite un valor diferente de 0");
+            Cantidad.setError(recursos.getString(R.string.Error2));
             return false;
         }
         return true;

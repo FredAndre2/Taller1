@@ -19,6 +19,8 @@
     <string name="Oro_Rosado">Oro Rosado</string>
     <string name="Plata">Plata</string>
     <string name="Niquel">Niquel</string>
+    <string name="Error1">Favor digite la cantidad de manillas</string>
+    <string name="Error2">Favor digite un valor diferente de cero</string>
     <string-array name="opciones_material">
         <item>@string/Cuerda</item>
         <item>@string/Cuero</item>
