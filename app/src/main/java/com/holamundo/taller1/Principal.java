@@ -7,6 +7,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.view.View;
 import android.content.res.Resources;
+import android.widget.Toast;
 
 public class Principal extends AppCompatActivity {
     private EditText Cantidad;
@@ -23,6 +24,7 @@ public class Principal extends AppCompatActivity {
         Material_Manilla = (Spinner)findViewById(R.id.Cmb_Material_Manilla);
         Tipo_Dije = (Spinner)findViewById(R.id.Cmb_Tipo_Dije);
         Moneda = (Spinner)findViewById(R.id.Cmb_Moneda);
+        recursos = this.getResources();
     }
     public boolean Validar(){
         if (Cantidad.getText().toString().isEmpty()){
