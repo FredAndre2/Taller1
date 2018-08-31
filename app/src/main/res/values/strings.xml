@@ -22,8 +22,8 @@
     <string name="Error1">Favor digite la cantidad de manillas</string>
     <string name="Error2">Favor digite un valor diferente de cero</string>
     <string-array name="opciones_material">
-        <item>@string/Cuerda</item>
         <item>@string/Cuero</item>
+        <item>@string/Cuerda</item>
     </string-array>
     <string-array name="opciones_dije">
         <item>@string/Ancla</item>
